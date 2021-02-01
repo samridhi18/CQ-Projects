@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Pomodoro Clock</title>
+    </head>
+    <body>
+        <div class="container">
+                <div class= "normal"> <label id="time">  </label> </div>
+                <div class = "normal">
+                <p id="display"> Session </p>
+                <p> -----------------------------------</p>
+                <div class="column">
+                <p> session time </p>
+                <p id="se"> <input type="text" value="0" maxlength="3" id="session" /> min </p>
+                <button id="subSession"> - </button>
+                <button id="addSession"> + </button> </div>
+                <div class="column">
+                <p> break time </p>
+                <p id="br"> <input type="text" value="0" maxlength="3" id="break"/> min </p>
+                <button id="subBreak"> - </button>
+                <button id="addBreak"> + </button> </div>
+                <br><br><br>
+                <p> -----------------------------------</p>
+                <button id="start"> Start </button>
+                <button id="reset""> Reset </button>    
+                </div>
+        </div>
+    </body>
+    <script src="script.js"> </script>
+</html>

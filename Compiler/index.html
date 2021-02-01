@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title> Compile Coding Question with API </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <h3> Write a program to find factorial of a number </h3>
+        <div>
+            <label> Type your code </label>
+            <select id="language">
+                <option> C </option>
+                <option> Python </option>
+                <option> Java </option>
+                <option> C++ </option>
+                <option> JavaSript </option>
+            </select>
+        </div>
+        <br><br>
+        <div id="editor"> </div>
+         <script>
+            var editor = ace.edit("editor");
+            editor.setTheme("ace/theme/monokai");
+            editor.session.setMode("ace/mode/javascript");
+        </script>
+        <br>
+        <div> <p id="output"> OUTPUT: </p>
+        </div>
+        <br>
+        <button id="compile" onclick="initProcess()"> Compile </button>
+    </body>
+    <script src="script.js"> </script>
+</html>

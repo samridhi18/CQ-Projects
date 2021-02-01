@@ -1,0 +1,51 @@
+#title{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: #1A3038;
+}
+
+#card{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px lightgrey;
+    padding-bottom: 10px;
+}
+
+#ques{
+    padding: 20px;
+}
+
+#ans{
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#ans > li{
+    margin-bottom: 10px;
+}
+
+#ans > li > span{
+    margin-left: 10px;
+}
+
+#show{
+    border-radius: 5px;
+    color: rgb(75, 116, 75);
+    background-color: rgba(100, 255, 100, 0.5);
+    margin: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submitt{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: gold;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+}
